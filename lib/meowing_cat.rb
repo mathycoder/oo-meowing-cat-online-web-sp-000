@@ -1,7 +1,7 @@
 ## code your solution here
 
 class Cat 
-  def initialize(name)
+  def initialize(name="Joseph")
     @name = name 
   end 
   
@@ -13,4 +13,5 @@ class Cat
   
 end 
 
+joseph = Cat.new 
 maru = Cat.new("Maru")
