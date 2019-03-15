@@ -13,4 +13,4 @@ class Cat
   
 end 
 
-maru = Cat.new
+maru = Cat.new("Maru")
